@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		7F294B652B3478DD0020C17E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B642B3478DD0020C17E /* AppDelegate.swift */; };
 		7F294B672B3478DD0020C17E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B662B3478DD0020C17E /* SceneDelegate.swift */; };
-		7F294B692B3478DD0020C17E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B682B3478DD0020C17E /* ViewController.swift */; };
-		7F294B6C2B3478DD0020C17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B6A2B3478DD0020C17E /* Main.storyboard */; };
 		7F294B6E2B3478DF0020C17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B6D2B3478DF0020C17E /* Assets.xcassets */; };
 		7F294B712B3478DF0020C17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B6F2B3478DF0020C17E /* LaunchScreen.storyboard */; };
+		7F294B802B347D160020C17E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B7F2B347D160020C17E /* Coordinator.swift */; };
+		7F294B822B347D710020C17E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B812B347D710020C17E /* AppCoordinator.swift */; };
+		7F294B842B347DC40020C17E /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B832B347DC40020C17E /* HotelView.swift */; };
+		7F294B862B347DD20020C17E /* HotelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B852B347DD20020C17E /* HotelCoordinator.swift */; };
+		7F294B882B347E060020C17E /* HotelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B872B347E060020C17E /* HotelViewModel.swift */; };
+		7F294B8A2B347EDF0020C17E /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B892B347EDF0020C17E /* Hotel.swift */; };
+		7F294B8D2B347F590020C17E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B8C2B347F590020C17E /* ApiManager.swift */; };
+		7F294B932B34816F0020C17E /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B8F2B34816F0020C17E /* SFProDisplay-Semibold.ttf */; };
+		7F294B942B34816F0020C17E /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B902B34816F0020C17E /* SFProDisplay-Medium.ttf */; };
+		7F294B952B34816F0020C17E /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B912B34816F0020C17E /* SFProDisplay-Bold.ttf */; };
+		7F294B962B34816F0020C17E /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F294B922B34816F0020C17E /* SFProDisplay-Regular.ttf */; };
+		7F294B982B3481880020C17E /* SFProText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B972B3481880020C17E /* SFProText.swift */; };
+		7F294B9B2B34C5AE0020C17E /* ExtUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B9A2B34C5AE0020C17E /* ExtUIColor.swift */; };
+		7F294B9E2B34C82D0020C17E /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B9D2B34C82D0020C17E /* PhotoView.swift */; };
+		7F294BA02B34C90C0020C17E /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294B9F2B34C90C0020C17E /* StarView.swift */; };
+		7F294BA22B34CE1B0020C17E /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294BA12B34CE1B0020C17E /* PriceView.swift */; };
+		7F294BA52B34D0A10020C17E /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294BA42B34D0A10020C17E /* SizeReader.swift */; };
+		7F294BA72B34D0C00020C17E /* _PeculiaritiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294BA62B34D0C00020C17E /* _PeculiaritiesView.swift */; };
+		7F294BA92B34D0D10020C17E /* PeculiaritiesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294BA82B34D0D10020C17E /* PeculiaritiesV.swift */; };
+		7F294BAD2B34D2D20020C17E /* AboutHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F294BAC2B34D2D20020C17E /* AboutHotel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F294B612B3478DD0020C17E /* HotelTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F294B642B3478DD0020C17E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F294B662B3478DD0020C17E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F294B682B3478DD0020C17E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F294B6B2B3478DD0020C17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F294B6D2B3478DF0020C17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F294B702B3478DF0020C17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F294B722B3478DF0020C17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F294B7F2B347D160020C17E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7F294B812B347D710020C17E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		7F294B832B347DC40020C17E /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
+		7F294B852B347DD20020C17E /* HotelCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCoordinator.swift; sourceTree = "<group>"; };
+		7F294B872B347E060020C17E /* HotelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewModel.swift; sourceTree = "<group>"; };
+		7F294B892B347EDF0020C17E /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		7F294B8C2B347F590020C17E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7F294B8F2B34816F0020C17E /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		7F294B902B34816F0020C17E /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		7F294B912B34816F0020C17E /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		7F294B922B34816F0020C17E /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		7F294B972B3481880020C17E /* SFProText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFProText.swift; sourceTree = "<group>"; };
+		7F294B9A2B34C5AE0020C17E /* ExtUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIColor.swift; sourceTree = "<group>"; };
+		7F294B9D2B34C82D0020C17E /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		7F294B9F2B34C90C0020C17E /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		7F294BA12B34CE1B0020C17E /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		7F294BA42B34D0A10020C17E /* SizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReader.swift; sourceTree = "<group>"; };
+		7F294BA62B34D0C00020C17E /* _PeculiaritiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PeculiaritiesView.swift; sourceTree = "<group>"; };
+		7F294BA82B34D0D10020C17E /* PeculiaritiesV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeculiaritiesV.swift; sourceTree = "<group>"; };
+		7F294BAC2B34D2D20020C17E /* AboutHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHotel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,129 @@
 		7F294B632B3478DD0020C17E /* HotelTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				7F294B642B3478DD0020C17E /* AppDelegate.swift */,
-				7F294B662B3478DD0020C17E /* SceneDelegate.swift */,
-				7F294B682B3478DD0020C17E /* ViewController.swift */,
-				7F294B6A2B3478DD0020C17E /* Main.storyboard */,
-				7F294B6D2B3478DF0020C17E /* Assets.xcassets */,
-				7F294B6F2B3478DF0020C17E /* LaunchScreen.storyboard */,
+				7F294B792B347CA30020C17E /* Model */,
+				7F294B7A2B347CAC0020C17E /* Hotel */,
+				7F294B7D2B347CD60020C17E /* Common */,
+				7F294B782B347C8D0020C17E /* SupportingFile */,
 				7F294B722B3478DF0020C17E /* Info.plist */,
 			);
 			path = HotelTestTask;
+			sourceTree = "<group>";
+		};
+		7F294B782B347C8D0020C17E /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B8E2B3481600020C17E /* Font */,
+				7F294B642B3478DD0020C17E /* AppDelegate.swift */,
+				7F294B662B3478DD0020C17E /* SceneDelegate.swift */,
+				7F294B6D2B3478DF0020C17E /* Assets.xcassets */,
+				7F294B6F2B3478DF0020C17E /* LaunchScreen.storyboard */,
+				7F294B812B347D710020C17E /* AppCoordinator.swift */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		7F294B792B347CA30020C17E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B892B347EDF0020C17E /* Hotel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F294B7A2B347CAC0020C17E /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B7B2B347CB70020C17E /* View */,
+				7F294B7C2B347CBC0020C17E /* ViewModel */,
+				7F294B852B347DD20020C17E /* HotelCoordinator.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		7F294B7B2B347CB70020C17E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B832B347DC40020C17E /* HotelView.swift */,
+				7F294B9C2B34C81E0020C17E /* SubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F294B7C2B347CBC0020C17E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B872B347E060020C17E /* HotelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F294B7D2B347CD60020C17E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B992B34C5980020C17E /* Ext */,
+				7F294B8B2B347F420020C17E /* API */,
+				7F294B7E2B347CE30020C17E /* Protocols */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		7F294B7E2B347CE30020C17E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B7F2B347D160020C17E /* Coordinator.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7F294B8B2B347F420020C17E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B8C2B347F590020C17E /* ApiManager.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		7F294B8E2B3481600020C17E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B912B34816F0020C17E /* SFProDisplay-Bold.ttf */,
+				7F294B902B34816F0020C17E /* SFProDisplay-Medium.ttf */,
+				7F294B922B34816F0020C17E /* SFProDisplay-Regular.ttf */,
+				7F294B8F2B34816F0020C17E /* SFProDisplay-Semibold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7F294B992B34C5980020C17E /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B972B3481880020C17E /* SFProText.swift */,
+				7F294B9A2B34C5AE0020C17E /* ExtUIColor.swift */,
+			);
+			name = Ext;
+			sourceTree = "<group>";
+		};
+		7F294B9C2B34C81E0020C17E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				7F294B9D2B34C82D0020C17E /* PhotoView.swift */,
+				7F294B9F2B34C90C0020C17E /* StarView.swift */,
+				7F294BA12B34CE1B0020C17E /* PriceView.swift */,
+				7F294BA32B34D0800020C17E /* PeculiaritiesView */,
+				7F294BAC2B34D2D20020C17E /* AboutHotel.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		7F294BA32B34D0800020C17E /* PeculiaritiesView */ = {
+			isa = PBXGroup;
+			children = (
+				7F294BA42B34D0A10020C17E /* SizeReader.swift */,
+				7F294BA62B34D0C00020C17E /* _PeculiaritiesView.swift */,
+				7F294BA82B34D0D10020C17E /* PeculiaritiesV.swift */,
+			);
+			path = PeculiaritiesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F294B712B3478DF0020C17E /* LaunchScreen.storyboard in Resources */,
+				7F294B942B34816F0020C17E /* SFProDisplay-Medium.ttf in Resources */,
+				7F294B952B34816F0020C17E /* SFProDisplay-Bold.ttf in Resources */,
+				7F294B962B34816F0020C17E /* SFProDisplay-Regular.ttf in Resources */,
+				7F294B932B34816F0020C17E /* SFProDisplay-Semibold.ttf in Resources */,
 				7F294B6E2B3478DF0020C17E /* Assets.xcassets in Resources */,
-				7F294B6C2B3478DD0020C17E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +291,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F294B692B3478DD0020C17E /* ViewController.swift in Sources */,
+				7F294BA72B34D0C00020C17E /* _PeculiaritiesView.swift in Sources */,
+				7F294B822B347D710020C17E /* AppCoordinator.swift in Sources */,
+				7F294B982B3481880020C17E /* SFProText.swift in Sources */,
+				7F294BA02B34C90C0020C17E /* StarView.swift in Sources */,
+				7F294B8D2B347F590020C17E /* ApiManager.swift in Sources */,
+				7F294BA92B34D0D10020C17E /* PeculiaritiesV.swift in Sources */,
+				7F294B9E2B34C82D0020C17E /* PhotoView.swift in Sources */,
 				7F294B652B3478DD0020C17E /* AppDelegate.swift in Sources */,
+				7F294B8A2B347EDF0020C17E /* Hotel.swift in Sources */,
+				7F294B9B2B34C5AE0020C17E /* ExtUIColor.swift in Sources */,
+				7F294BA22B34CE1B0020C17E /* PriceView.swift in Sources */,
+				7F294B842B347DC40020C17E /* HotelView.swift in Sources */,
 				7F294B672B3478DD0020C17E /* SceneDelegate.swift in Sources */,
+				7F294B802B347D160020C17E /* Coordinator.swift in Sources */,
+				7F294BAD2B34D2D20020C17E /* AboutHotel.swift in Sources */,
+				7F294B882B347E060020C17E /* HotelViewModel.swift in Sources */,
+				7F294B862B347DD20020C17E /* HotelCoordinator.swift in Sources */,
+				7F294BA52B34D0A10020C17E /* SizeReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F294B6A2B3478DD0020C17E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F294B6B2B3478DD0020C17E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F294B6F2B3478DF0020C17E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +457,6 @@
 				INFOPLIST_FILE = HotelTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +484,6 @@
 				INFOPLIST_FILE = HotelTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
