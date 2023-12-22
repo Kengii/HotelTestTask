@@ -25,6 +25,10 @@ final class HotelViewModel: ObservableObject {
   var alignment: HorizontalAlignment {
     alignments[0]
   }
+
+  func goToRoom() {
+    coordinator.goToRooms(name: hotel.name)
+  }
 }
 
 extension HotelViewModel {

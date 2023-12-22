@@ -77,7 +77,7 @@ struct HotelView: View {
           .ignoresSafeArea()
         VStack {
           Button(action: {
-
+            viewModel.goToRoom()
           }, label: {
               ZStack {
                 RoundedRectangle(cornerRadius: 15)
