@@ -19,4 +19,11 @@ final class HotelCoordinator: Coordinator {
     navigation.navigationBar.isHidden = true
     rootViewController = navigation
   }
+
+  func goToRooms(name: String) {
+    let roomsCoordinator = RoomsCoordinator()
+    roomsCoordinator.startRoom(name: name)
+    let vc = roomsCoordinator.rootViewController
+    self.rootViewController.show(vc, sender: nil)
+  }
 }
