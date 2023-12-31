@@ -17,7 +17,7 @@ struct PriceView: View {
       Text("ОТ")
         .sfPro(30, weight: .semibold)
         .foregroundStyle(.black)
-      Text("\(price)" + "" + "P")
+      Text("\(price)" + "" + "₽")
         .sfPro(30, weight: .semibold)
         .foregroundStyle(.black)
       Text(priceForIt)

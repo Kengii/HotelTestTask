@@ -25,6 +25,8 @@ struct TopView: View {
         .sfPro(18, weight: .medium)
         .multilineTextAlignment(.center)
         .padding(.trailing, 16)
+        .foregroundStyle(.black)
+      Spacer()
     }
   }
 }

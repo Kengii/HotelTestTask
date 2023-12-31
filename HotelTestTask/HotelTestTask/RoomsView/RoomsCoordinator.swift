@@ -22,5 +22,11 @@ final class RoomsCoordinator: Coordinator {
     rootViewController = pickViewController
   }
 
+  func goToReservation() {
+    let reservationCoordinator = ReservationCoordinator()
+    reservationCoordinator.start()
+    let vc = reservationCoordinator.rootViewController
+    self.rootViewController.navigationController?.pushViewController(vc, animated: true)
+  }
 
 }

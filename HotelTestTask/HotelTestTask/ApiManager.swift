@@ -11,6 +11,7 @@ import Combine
 enum ApiPath: String {
   case getHotel = "https://run.mocky.io/v3/d144777c-a67f-4e35-867a-cacc3b827473"
   case getRoom = "https://run.mocky.io/v3/8b532701-709e-4194-a41c-1a903af00195"
+  case getReservation = "https://run.mocky.io/v3/63866c74-d593-432c-af8e-f279d1a8d2ff"
 }
 
 final class ApiManager {
@@ -47,6 +48,20 @@ final class ApiManager {
           .map(\.data)
           .decode(type: Rooms.self, decoder: decoder)
           .catch { error in Just(Rooms(rooms: [])) }
+          .receive(on: RunLoop.main)
+          .eraseToAnyPublisher()
+  }
+
+  func getReservation() -> AnyPublisher<Reservation, Never> {
+    let link = ApiPath.getReservation.rawValue
+      guard let url = URL(string: link) else {
+          return Just(Reservation()).eraseToAnyPublisher()
+      }
+
+      return URLSession.shared.dataTaskPublisher(for: url)
+          .map(\.data)
+          .decode(type: Reservation.self, decoder: decoder)
+          .catch { error in Just(Reservation()) }
           .receive(on: RunLoop.main)
           .eraseToAnyPublisher()
   }

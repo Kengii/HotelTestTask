@@ -52,7 +52,7 @@ struct RoomsView: View {
                   .padding(.top, 8)
                   .padding(.leading, 16)
                 Button {
-
+                  viewModel.goToReservation()
                 } label: {
                   ZStack {
                     RoundedRectangle(cornerRadius: 15)
