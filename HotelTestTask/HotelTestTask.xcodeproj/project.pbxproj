@@ -48,6 +48,9 @@
 		7FA039962B3C00AA000F2388 /* Tourist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA039952B3C00AA000F2388 /* Tourist.swift */; };
 		7FA039982B3C1F35000F2388 /* TouristDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA039972B3C1F35000F2388 /* TouristDropDownView.swift */; };
 		7FA0399B2B414F85000F2388 /* AddTourist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0399A2B414F85000F2388 /* AddTourist.swift */; };
+		7FA039A02B41551B000F2388 /* PaidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0399F2B41551B000F2388 /* PaidView.swift */; };
+		7FA039A22B415529000F2388 /* PaidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA039A12B415529000F2388 /* PaidViewModel.swift */; };
+		7FA039A42B415535000F2388 /* PaidCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA039A32B415535000F2388 /* PaidCoordinator.swift */; };
 		7FF9D1082B35C2AC002307C5 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9D1072B35C2AC002307C5 /* Room.swift */; };
 		7FF9D10A2B35C302002307C5 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9D1092B35C302002307C5 /* Rooms.swift */; };
 		7FF9D10F2B35C3F8002307C5 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9D10E2B35C3F8002307C5 /* TopView.swift */; };
@@ -98,6 +101,9 @@
 		7FA039952B3C00AA000F2388 /* Tourist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourist.swift; sourceTree = "<group>"; };
 		7FA039972B3C1F35000F2388 /* TouristDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristDropDownView.swift; sourceTree = "<group>"; };
 		7FA0399A2B414F85000F2388 /* AddTourist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTourist.swift; sourceTree = "<group>"; };
+		7FA0399F2B41551B000F2388 /* PaidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidView.swift; sourceTree = "<group>"; };
+		7FA039A12B415529000F2388 /* PaidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidViewModel.swift; sourceTree = "<group>"; };
+		7FA039A32B415535000F2388 /* PaidCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCoordinator.swift; sourceTree = "<group>"; };
 		7FF9D1072B35C2AC002307C5 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		7FF9D1092B35C302002307C5 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
 		7FF9D10E2B35C3F8002307C5 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 				7F294B7A2B347CAC0020C17E /* Hotel */,
 				7F294BAE2B34DB9E0020C17E /* RoomsView */,
 				7F7427062B36311300770A5B /* Reservation */,
+				7FA0399C2B4154FB000F2388 /* Paid */,
 				7F294B7D2B347CD60020C17E /* Common */,
 				7F294B782B347C8D0020C17E /* SupportingFile */,
 				7F294B722B3478DF0020C17E /* Info.plist */,
@@ -359,6 +366,32 @@
 			path = Tourist;
 			sourceTree = "<group>";
 		};
+		7FA0399C2B4154FB000F2388 /* Paid */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0399D2B415509000F2388 /* View */,
+				7FA0399E2B41550E000F2388 /* ViewModel */,
+				7FA039A32B415535000F2388 /* PaidCoordinator.swift */,
+			);
+			path = Paid;
+			sourceTree = "<group>";
+		};
+		7FA0399D2B415509000F2388 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0399F2B41551B000F2388 /* PaidView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FA0399E2B41550E000F2388 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FA039A12B415529000F2388 /* PaidViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7FF9D10B2B35C3DB002307C5 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +480,7 @@
 				7F294B822B347D710020C17E /* AppCoordinator.swift in Sources */,
 				7F294BB22B34DBC80020C17E /* RoomsCoordinator.swift in Sources */,
 				7F294B982B3481880020C17E /* SFProText.swift in Sources */,
+				7FA039A22B415529000F2388 /* PaidViewModel.swift in Sources */,
 				7F74270C2B36313D00770A5B /* ReservationCoordinator.swift in Sources */,
 				7F294BA02B34C90C0020C17E /* StarView.swift in Sources */,
 				7F294B8D2B347F590020C17E /* ApiManager.swift in Sources */,
@@ -459,7 +493,9 @@
 				7F7427082B36312500770A5B /* ReservationView.swift in Sources */,
 				7FA0398D2B38C43B000F2388 /* TotalPrice.swift in Sources */,
 				7F294B8A2B347EDF0020C17E /* Hotel.swift in Sources */,
+				7FA039A42B415535000F2388 /* PaidCoordinator.swift in Sources */,
 				7FF9D1082B35C2AC002307C5 /* Room.swift in Sources */,
+				7FA039A02B41551B000F2388 /* PaidView.swift in Sources */,
 				7FA039942B3A18D0000F2388 /* TouristTextFieldView.swift in Sources */,
 				7F294B9B2B34C5AE0020C17E /* ExtUIColor.swift in Sources */,
 				7FF9D1112B35CAE2002307C5 /* ButtonDeatails.swift in Sources */,
