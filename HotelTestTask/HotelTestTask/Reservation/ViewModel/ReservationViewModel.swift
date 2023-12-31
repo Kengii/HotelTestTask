@@ -45,4 +45,8 @@ extension ReservationViewModel {
   func addTourist() {
     sections.append("Второй турист")
   }
+
+  func goToPaid() {
+    coordinator.goToPaid()
+  }
 }

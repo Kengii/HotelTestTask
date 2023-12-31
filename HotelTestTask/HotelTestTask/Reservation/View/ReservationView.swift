@@ -43,6 +43,7 @@ struct ReservationView: View {
           TotalPrice(tourPrice: viewModel.reservation.tourPrice, fuelCharge: viewModel.reservation.fuelCharge, serviceCharge: viewModel.reservation.serviceCharge)
           VStack {
             Button(action: {
+              viewModel.goToPaid()
             }, label: {
                 ZStack {
                   RoundedRectangle(cornerRadius: 15)
